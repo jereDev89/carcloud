@@ -1,0 +1,368 @@
+/**CSS3
+Ivan Jeremic design 2017
+ **/
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+	color:#000;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+}
+#wrapper{
+	width:1170px;
+	margin:auto;
+}
+#header{
+	background-image: url("../images/volkswagen01.jpeg");
+	height:700px;
+	border-bottom:solid 5px #BCD6FB;
+}
+#header2{
+	background-color:rgba(61, 120, 244, 0.55);
+	height:700px;
+}
+#first{
+	color:#FFF;
+}
+#logo{
+	float:left;
+	padding:60px 10px 10px 80px;
+}
+#nav{
+	color:#FFF;
+	float:right;
+	padding:70px 70px 10px 10px;
+	margin:10px;
+	font-weight:bold;
+}
+#second{
+	clear:both;
+	padding-top:30px;
+	margin:10px;
+}
+#content01,#content03{
+	text-align:center;
+	padding:10px;
+	padding:10px 150px 30px 150px;
+}
+#content02,#content04{
+	height:700px;
+	background-color:#3D88F4;
+	color:#FFF;
+	text-align:center;
+	padding:30px 10px 10px 10px;
+	box-shadow:0px 0px 3px 3px #BCD6FB;
+}
+#services01,#services02,#services03{
+	float:left;
+	width:342px;
+	padding:20px;
+	margin-top:20px;
+}
+#content022{
+	clear:both;
+	text-align:justify;
+}
+#services0221,#services0222,#services0223{
+	float:left;
+	width:280px;
+	padding:0px 50px 0px 50px;	
+}
+#services0222,#services0223{
+	border-left:1px solid #FFF;
+}
+#content04{
+	height:500px;
+}
+#content0411,#content0412,#content0413{
+	float:left;
+	width:280px;
+	text-align:center;
+	padding:0px 50px 20px 50px;
+}
+#content042{
+	clear:both;
+}
+#content0421,#content0422,#content0423{
+	float:left;
+	width:280px;
+	height:370px;
+	padding:0px 50px 0px 50px;
+	text-align:left;
+}
+#content0422,#content0423{
+	border-left:1px solid #FFF;
+}
+#content05{
+	height:370px;
+	background-image: url(../images/norway-mountain.jpg);
+	text-align:center;
+	color:#FFF;
+	padding-top:130px;
+}
+#content06{
+	text-align:center;
+	padding:50px;
+	box-shadow:0px 3px 0px 0px #C7C7C7;
+}
+#content07{
+	margin-top:50px;
+}
+#content071{
+	
+}
+#content0711,#content0712,#content0713{
+	float:left;
+	width:280px;
+	text-align:center;
+	padding:0px 50px 0px 50px;
+}
+#content072{
+	clear:both;
+}
+#content0721,#content0722,#content0723{
+	float:left;
+	width:280px;
+	text-align:left;
+	padding:0px 50px 0px 50px;
+	height:820px;
+}
+#content0722,#content0723{
+	border-left:1px solid #697287;
+}
+#content073{
+	clear:both;
+	padding:30px;
+	margin-bottom:50px;
+}
+#content08{
+	background-color:#3D88F4;
+	color:#FFF;
+	height:400px;
+	box-shadow:0px 0px 3px 3px #BCD6FB;
+}
+#content081{
+	float:left;
+	background-color:#3D88F4;
+	width:400px;
+}
+#content082{
+	float:right;
+	background-color:#3D88F4;
+	width:770px;
+}
+#content0822{
+	padding-top:70px;
+}
+#content09{
+	background-image: url(../images/travel02.jpeg);
+	text-align:center;
+	color:#FFF;
+	height:385px;
+	padding-top:105px;
+}
+#footer{
+	clear:both;
+	height:330px;
+	background-color:#222222;
+	color:#AAAAAA;
+	border-top:2px solid #AAAAAA;
+}
+#footer01,#footer02{
+	width:400px;
+	float:left;
+}
+#footer01{
+	padding:50px 20px 20px 120px;
+}
+#footer02{
+	padding:50px 20px 20px 20px;
+}
+#signature{
+	background-color:#222222;
+	color:#AAAAAA;
+	border-top:1px solid #AAAAAA;
+	text-align:center;
+	height:50px;
+	padding:20px;
+}
+a{
+	text-decoration:none;
+	color:#FFF;
+	padding:10px;
+}
+a:link,a:visited{
+	color:#FFF;
+}
+.logo{
+	font-family: 'Comfortaa', cursive;
+	font-size:45px;
+	font-weight:bold;
+}
+.logo2{
+	font-size:;
+	font-weight:bold;
+	letter-spacing:8px;
+}
+.message,.message2,.message3{
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	font-size:45px;
+}
+.message2{
+	font-size:25px;
+	padding-top:20px;
+}
+.message3{
+	font-size:25px;
+	padding:15px;
+	background-color:#E89A64;
+	border-radius:10px;
+	width:600px;
+	margin:auto;
+	margin-top:50px;
+	box-shadow:3px 3px 10px #AAAAAA;
+}
+.big_message{
+	font-size:45px;
+	font-weight:bold;
+}
+.onbudget{
+	color:#BCD6FB;
+}
+.icon{
+	width:100px;
+	height:100px;
+}
+.smallicon{
+	width:60px;
+	height:60px;
+}
+.big_icon{
+	width:200px;
+	height:200px;
+	padding:80px;
+}
+.bold{
+	font-weight:bold;
+}
+.blue_border,.white_border,.orange_border{
+    display:block;
+	font-weight:bold;
+}
+.blue_border:after,.white_border:after,.orange_border:after{
+    display:block;
+    clear:both;
+    content : "";
+    position: relative;
+    left    : 0;
+    bottom  : 0;
+    max-width:120px;
+    height  : 1px;
+    width   : 50%;  /* or 100px */
+    border-bottom:5px solid #3D88F4;
+    margin:0 auto;
+    padding:4px 0px;
+}
+.white_border:after{
+	border-bottom:5px solid #FFF;
+}
+.orange_border:after{
+	border-bottom:5px solid #F2AE40;
+}
+.line{
+	line-height:25px;
+}
+.blue_text{
+	color:#3D88F4;
+	font-weight:bold;
+}
+.orange_text{
+	color:#F2AE40;
+	font-weight:bold;
+}
+.green_text{
+	color:#4FAF54;
+	font-weight:bold;
+}
+.grey_text{
+	color:#697287;
+	font-weight:bold;
+	line-height:23px;
+}
+.blue_border_bottom,.orange_border_bottom,.green_border_bottom{
+	border-bottom:5px solid #3D88F4;
+	padding-bottom:10px;
+	font-weight:bold;
+	color:#000;
+}
+.orange_border_bottom{
+	border-bottom:5px solid #F2AE40;
+}
+.green_border_bottom{
+	border-bottom:5px solid #4FAF54;
+}
+.camera_text{
+	padding-top:100px;
+	font-weight:bold;
+}
+.camera_YN{
+	font-size:35px;
+	padding:20px;
+	background-color:#E89A64;
+	border-radius:10px;
+	margin:100px;
+	box-shadow:3px 3px 10px #AAAAAA;
+}
+.footer_border{
+	border-bottom:5px double #AAAAAA;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+.frame{
+	border-radius:5px;
+	padding:15px;
+	margin-top:15px;
+}
+p{
+	padding:10px;
+}
+ul li{
+	display:inline;
+	padding-right:20px;
+}
+ol li{
+	display:inline;
+}
+h1{
+	font-size:32px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:20.8px;
+}
